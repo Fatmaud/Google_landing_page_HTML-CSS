@@ -4,26 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="icon" href="./images/favicon.png" />
   </head>
   <body>
     <header>
       <nav class="header-left">
-        <a href="">About</a>
-        <a href="">Store</a>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Store</a></li>
+        </ul>
       </nav>
 
       <nav class="header-right">
-        <a href="">Gmail</a>
-        <a href="">Images</a>
-        <a href=""><img src="./images/appicon.png" alt="" /></a>
-        <a href="">Sign In</a>
+        <ul>
+          <li><a href="">Gmail</a></li>
+          <li><a href="">Images</a></li>
+          <li>
+            <a href=""><img src="./images/appicon.png" alt="" /></a>
+          </li>
+          <li><a href="">Sign In</a></li>
+        </ul>
       </nav>
     </header>
-
+    <div class="clearfix"></div>
     <div class="searchbar">
       <img src="./images/googlelogo.png" alt="" />
       <label for="searchbar"></label>
       <input type="text" name="search" id="search" />
+      <br />
       <button id="search">Google Search</button>
       <button id="lucky">I'm Feeling Lucky</button>
     </div>

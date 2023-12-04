@@ -1,0 +1,41 @@
+/* * {
+  margin: 0;
+  border: 0;
+} */
+
+body {
+  background-color: white;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .header-left ul li {
+  overflow: hidden;
+  float: left;
+}
+
+header .header-right ul li {
+  overflow: hidden;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(31, 30, 30);
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+div .searchbar {
+}
+.searchbar img {
+  margin-top: 300px;
+}
